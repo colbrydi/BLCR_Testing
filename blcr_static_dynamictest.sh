@@ -33,5 +33,5 @@ rm still_running
 (sleep 60; exit 1) &
 sleep 70
 echo "Complete"
-
+kill $PID
 
