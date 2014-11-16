@@ -8,4 +8,5 @@ make
 
 The test allocates a large memory space and sets a large chunk of the space to 1.  If the program is checkpointed and resatarted then some of the ones turn into zeros.  Running the test as is will fail. Reducing the allocated space of memory will make this work.
 
+NOTE: I must credit Paul Hargrove, he had a bug fix publiched in less than a day after sending him a link to this test case. 
  
